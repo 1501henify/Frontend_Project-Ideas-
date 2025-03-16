@@ -7,8 +7,7 @@
 ## [![Small Screen View]()](https://github.com/1501henify/Frontend_Project-Ideas-)
 
 --Card_Maker
-## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Card%20maker/card_maker.jpg
-)](https://github.com/1501henify/Frontend_Project-Ideas-)
+## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Card%20maker/card_maker.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
 
 --Gallery
 ## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Gallery/Gallery.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
@@ -26,12 +25,10 @@
 ## [![Small Screen View](https://github.com/1501henify/henify-Observer-API/blob/038091f600d415609c6aa5a9b59154a57e4219d6/IMAGE/conter_observer.jpg)](https://github.com/1501henify/henify-Observer-API)
 
 --Phlox business clone
-## [![Small Screen View](https://github.com/1501henify/frontend-project-idea/blob/408a9131a4467479fa0d7e3050f5e8c578ffb841/assets/IMAGE/phlox_Business.jpg
-)](https://github.com/1501henify/frontend-project-idea)
+## [![Small Screen View](https://github.com/1501henify/frontend-project-idea/blob/408a9131a4467479fa0d7e3050f5e8c578ffb841/assets/IMAGE/phlox_Business.jpg)](https://github.com/1501henify/frontend-project-idea)
 
 --Phlox business Deutsch
-## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Phlox_Business%20Deutsch/Assets/IMAGE/phlox_business_Duetsch.jpg
-)](https://github.com/1501henify/Frontend_Project-Ideas-)
+## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Phlox_Business%20Deutsch/Assets/IMAGE/phlox_business_Duetsch.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
 
 --To do list
 ## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/TO_DO%20List/todo_List.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
@@ -46,6 +43,7 @@
 
 ## Clone This Repository
 To download these files to your local machine, run the following command:
+
 
 ```bash
 git clone https://github.com/1501henify/Frontend_Project-Ideas-
