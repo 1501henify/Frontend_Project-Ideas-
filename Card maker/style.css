@@ -1,0 +1,118 @@
+/* General styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: #0d3b66;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.card-maker-container {
+  max-width: 600px;
+  background: #f1faee;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+
+h1 {
+  color: #ff4747;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.card-inputs {
+  margin-bottom: 20px;
+}
+
+textarea,
+select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 95%;
+  resize: none;
+}
+
+#preview-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#preview-btn:hover {
+  background: #45a049;
+}
+
+/* Card preview styles */
+.card {
+  background: #e3e3e3;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.card.design1 {
+  background: #e0f7fa; /* Light blue for snowflakes */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT161JKsC-_AFgVtyqEe3O1dDTEB_9-vFT5TNSMmUJUeBRaaEPPQ1i5poh5&s=10');
+  background-size: cover;
+}
+
+.card.design2 {
+  background: #ffe0b2; /* Light orange for candy canes */
+  background-image: url('https://m.media-amazon.com/images/I/71AYRwuwEXL.jpg');
+  background-size: cover;
+}
+
+.card.design3 {
+  background: #c8e6c9; /* Light green for Christmas trees */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgDBLuangCWkw5UwdOpzbz04piu5WQ0q1vTDE70mrxxIgUVy2os7YMxig&s=10');
+  background-size: cover;
+}
+
+/* Snow fall-Effect */
+@keyframes snow {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: snow 10s linear infinite;
+}
+
+.snowflake:nth-child(odd) {
+  animation-duration: 8s;
+}

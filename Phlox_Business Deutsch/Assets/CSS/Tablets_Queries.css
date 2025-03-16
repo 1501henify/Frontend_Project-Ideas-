@@ -1,0 +1,588 @@
+/*
+@media (max-width: 1024px) {
+  html,
+  body {
+    scroll-behavior: auto !important;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  .navigation li a {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  /* Display */ /*
+  .display .person {
+    width: 100svw;
+    object-fit: cover;
+  }
+
+  .display .display-text {
+    font-size: 19px;
+    height: 425px;
+    width: 85%;
+    padding: 0;
+    padding: 2rem 6rem;
+  }
+
+  .display .display-text .short-underline {
+    font-size: 41px;
+    width: 23ch;
+    margin-bottom: 1rem;
+  }
+
+  .display .display-text .short-underline::after {
+    display: none;
+  }
+
+  .display .display-text .short-text {
+    width: 46ch;
+  }
+
+  .display .display-text .btn-light {
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  /*Malt Section */ /*
+  .malt .centered-div .long-text {
+    width: 60ch;
+  }
+
+  .malt .grid-container {
+    display: block;
+    font-size: 21px;
+  }
+
+  .malt .grid-container .grid-item .text-container p {
+    width: 59ch;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  /* Mold Section */ /*
+  .mold .centered-div .long-text {
+    width: 60ch;
+  }
+
+  .mold .side-by-side {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mold .side-by-side .large-image img {
+    width: 100dvw;
+    object-fit: cover;
+    vertical-align: middle;
+  }
+
+  .mold .side-by-side .text-content {
+    position: relative;
+    left: 10%;
+    text-align: left;
+  }
+
+  .mold .side-by-side .text-content p {
+    width: 60ch;
+    padding-right: 59px;
+  }
+
+  .mold .side-by-side .text-content .btn {
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  /* Right Image Section */ /*
+  .right-image {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .right-image .text-left h1 {
+    width: 26ch;
+    text-align: center;
+    margin: 0;
+  }
+
+  .right-image .text-left h1::after {
+    position: absolute;
+    left: 45%;
+  }
+
+  .right-image .text-left p {
+    width: 70ch;
+    padding-left: 6rem;
+    text-align: center;
+  }
+
+  .right-image .right-image-container img {
+    width: 100dvw;
+    object-fit: cover;
+    vertical-align: middle;
+    opacity: 0.9;
+  }
+
+  /* Section Pricing Plan:Options; Carousel This!! */ /*
+  .pricing-plan .centered-div .long-text {
+    width: 60ch;
+  }
+
+  .pricing-plan .grid-container {
+    display: block;
+  }
+
+  .pricing-plan .grid-container .purchase {
+    margin-bottom: 15rem;
+  }
+
+  .pricing-plan .grid-container .purchase {
+    height: 690px;
+    width: 441px;
+    transition: background-color 0.43s ease, color 0.43s ease;
+  }
+
+  /* Listen Section */ /*
+  .listen .centered-div .long-text {
+    width: 60ch;
+  }
+
+  .listen .two-grid {
+    display: block;
+    justify-content: center;
+  }
+
+  .listen .two-grid .a-r {
+    margin-bottom: 10rem;
+    position: relative;
+    left: 15%;
+  }
+
+  .listen .two-grid .a-r .nom-text p {
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  .listen .two-grid .a-r:nth-child(2) .nom-img {
+    position: absolute;
+    right: 35%;
+  }
+
+  /* Recent News */ /*
+  .recent {
+    width: 100%;
+    height: 125px;
+  }
+
+  .recent .centered-div .long-text {
+    width: 60ch;
+  }
+
+  .recent .blog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .recent .blog .blog-item:last-child {
+    opacity: 0;
+    display: none;
+  }
+
+  /* About Page */
+/* Section High */ /*
+  .high .credit-text {
+    display: block;
+  }
+
+  .high .credit-text p {
+    margin-bottom: 44px;
+    width: 85ch;
+    padding-right: 5px;
+  }
+
+  .high .dude {
+    display: block;
+  }
+
+  .high .dude img {
+    width: 100dvw;
+    object-fit: cover;
+  }
+
+  .high .dude ul {
+    text-align: left;
+    padding-left: 33px;
+    width: 80ch;
+  }
+
+  .high .mode {
+    width: 100%;
+    padding: 0;
+    padding: 20px 16px 15px 16px;
+    position: relative;
+    bottom: 0;
+    transform: translateY(6rem);
+  }
+
+  .high .mode {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+  }
+
+  .high .mode .fine {
+    position: relative;
+    transform: translateX(-21px);
+  }
+
+  .high .mode .fine h1 {
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    height: 90px;
+  }
+
+  .high .mode .fine p {
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    padding-left: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .high .mode .fine b {
+    font-weight: bold;
+  }
+
+  /* Bend Section */ /*
+  .bend {
+    display: block;
+  }
+
+  .bend .aux {
+    display: block;
+    font-size: 21px;
+    font-weight: 400;
+    position: relative;
+    transform: translateX(8rem);
+    text-align: center;
+  }
+
+  .bend .aux h3::after {
+    display: none;
+  }
+
+  .bend .aux .aux-text p {
+    font-size: 17px;
+    font-weight: 40;
+    padding-right: 5rem;
+    text-align: center;
+    width: 70ch;
+  }
+
+  .bend .aux-img img {
+    display: block;
+    width: 100dvw;
+    margin: 0;
+    padding: 0;
+    padding-top: 5rem;
+    padding-right: 12rem;
+    padding-left: 0;
+  }
+
+  .bend .aux-mode {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-top: 6rem;
+    padding: 37.5px 16.5px 15px 16.5px;
+  }
+
+  .bend .aux-mode .finite {
+    text-align: center;
+    position: relative;
+    transform: translateX(-18px);
+  }
+
+  .bend .aux-mode .finite p {
+    display: block;
+    width: 3ch;
+    padding-left: 2rem;
+  }
+
+  .bend .aux-mode .finite:first-child p {
+    padding: 0;
+  }
+
+  .bend .finite:first-child::after,
+  .bend .finite:nth-child(2)::after,
+  .bend .finite:nth-child(3)::after {
+    display: none;
+  }
+
+  /* Mope Section */ /*
+  .mope .centered-div .long-text {
+    width: 60ch;
+  }
+
+  .mope .smile {
+    display: block;
+  }
+
+  .mope .smile .make {
+    margin: 0;
+    margin-bottom: 6rem;
+    font-size: 21px;
+  }
+
+  /* //Service Page\\ */
+/* Serve Section */ /*
+  .serve {
+    display: block;
+  }
+
+  .serve .centered-div .long-text {
+    padding-right: 3rem;
+  }
+
+  .serve .sever .serve-text {
+    position: relative;
+    text-align: center;
+    transform: translate(10rem, -3rem);
+  }
+
+  .serve .sever .serve-text h4 {
+    width: 20ch;
+    padding-right: 3rem;
+  }
+
+  .serve .sever .serve-text h4::after {
+    position: absolute;
+    left: 21%;
+  }
+
+  .serve .sever .serve-grid {
+    position: relative;
+    transform: translateX(-2rem);
+  }
+
+  .serve .sever .serve-grid .serve-fine p {
+    font-size: 16px;
+    font-weight: 600;
+    width: 17ch;
+  }
+
+  .serve .deal {
+    display: block;
+    height: 973px;
+    width: 100%;
+  }
+
+  .serve .deal img {
+    width: 100dvw;
+    object-fit: cover;
+    padding-right: 4rem;
+  }
+
+  .serve .deal .dealer {
+    position: relative;
+    transform: translate(-1em, 6em);
+  }
+
+  .serve .deal .dealer h4 {
+    text-align: center;
+    width: 16ch;
+    transform: translateX(3.4rem);
+  }
+
+  .serve .deal .dealer h4::after {
+    position: absolute;
+    left: 28%;
+  }
+
+  .serve .deal .dealer p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 60ch;
+    padding-right: 6rem;
+  }
+  .ads {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .ads .grads p:first-child {
+    padding-left: 2rem;
+  }
+
+  .ads .grads p:nth-child(2) {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .ads .grads p:first-child img {
+    position: relative;
+    transform: translateX(4rem);
+    display: grid;
+    grid-row: 50% 50%;
+    text-align: center;
+  }
+
+  .ads .grads .lad span {
+    display: inline;
+  }
+
+  .ads .grads:nth-child(2) p:first-child {
+    padding-left: 4rem;
+  }
+
+  .ads .grads:nth-child(2) P:first-child img {
+    transform: translateX(2rem);
+  }
+
+  /* //Blog Page\\ */
+/* Blog Section */ /*
+  .blog .info-blog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .blog .info-blog .blog-item:last-child {
+    opacity: 0;
+    display: none;
+  }
+
+  /* //Contact Page\\ */
+/* Contacts Section */ /*
+  .contacts {
+    display: block;
+    position: relative;
+    margin-bottom: 964px;
+  }
+
+  .contacts .contact-val {
+    position: absolute;
+    top: 90rem;
+    left: 16%;
+    text-align: center;
+    justify-items: center;
+  }
+
+  .contacts .contact-val h4::after {
+    position: absolute;
+    left: 30%;
+  }
+
+  .contacts .contact-val p {
+    text-align: center;
+    width: 50ch;
+  }
+
+  .contacts .map-mode #map {
+    position: absolute;
+    top: 0;
+    width: 80dvw;
+  }
+
+  .contacts .map-mode .map-aux {
+    position: absolute;
+    left: -3rem;
+    transform: translateY(-6rem);
+    width: 90dvw;
+    justify-items: center;
+  }
+
+  .contacts .map-mode .map-aux .bla p {
+    width: 20ch;
+  }
+
+  .contacts .map-mode .bla:first-child {
+    position: relative;
+    transform: translateX(-1em);
+  }
+
+  .contacts .map-mode .bla:first-child::after {
+    position: absolute;
+    left: 13rem;
+  }
+
+  /* //Project's Page\\ */
+/* Project's Section */ /*
+  .project-section .project-val {
+    display: block;
+    text-align: center;
+  }
+
+  .project-section .project-val h4::after {
+    position: absolute;
+    right: 40%;
+  }
+
+  .project-section .project-val p {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    transform: translateX(9rem);
+  }
+
+  .project-section .projects {
+    display: block;
+    width: 100%;
+    justify-items: center;
+  }
+
+  .project-section .projects .project {
+    margin-bottom: 10rem;
+  }
+
+  .project-section .projects .project .pro {
+    width: 80dvw;
+    height: fit-content;
+  }
+
+  /* Footer */ /*
+  footer .under-info {
+    font-size: 21px;
+    font-weight: 400;
+    display: block;
+    margin: 0;
+    padding: 0;
+    padding: 5rem;
+  }
+
+  footer .under-info .basics {
+    margin-bottom: 3rem;
+  }
+
+  footer .under-info .basics .basic-aux {
+    width: 100dvw;
+  }
+
+  footer .under-info .basics .newsletter-signup .basic-input {
+    font-size: 21px;
+    font-weight: 400;
+    width: 50%;
+  }
+
+  footer .under-info .basics .newsletter-signup .subscribe-btn {
+    position: absolute;
+    right: 50%;
+  }
+
+  footer .footer-bottom p {
+    font-size: 18px;
+    padding-left: 2rem;
+  }
+}
+*/

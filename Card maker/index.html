@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festive Card Maker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card-maker-container">
+      <h1>🎁 Festive Card Maker 🎄</h1>
+
+      <!-- Form for user input -->
+      <div class="card-inputs">
+        <label for="message">Enter your holiday message:</label>
+        <textarea
+          id="message"
+          rows="3"
+          placeholder="Write your festive message here..."
+        ></textarea>
+
+        <label for="design">Choose a card design:</label>
+        <select id="design">
+          <option value="design1">Snowflakes</option>
+          <option value="design2">Candy Canes</option>
+          <option value="design3">Christmas Trees</option>
+        </select>
+
+        <button id="preview-btn">Preview Card</button>
+      </div>
+
+      <!-- Card preview -->
+      <div id="card-preview" class="card">
+        <p id="card-message">Your holiday message will appear here!</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

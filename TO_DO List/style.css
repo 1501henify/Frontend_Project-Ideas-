@@ -1,0 +1,95 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #ff4747; /* Holiday red color */
+  margin-bottom: 20px;
+}
+
+#task-input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  border: 2px solid #ff4747;
+  border-radius: 5px;
+}
+
+#add-task-btn {
+  padding: 10px 20px;
+  background: #ff4747;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#add-task-btn:hover {
+  background: #e33e3e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button.delete-btn {
+  background: #ff4747;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background: #e33e3e;
+}
+
+button.complete-btn {
+  background: #4caf50; /* Green for complete */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button.complete-btn:hover {
+  background: #45a049;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
