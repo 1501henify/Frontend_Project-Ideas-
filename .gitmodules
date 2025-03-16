@@ -1,0 +1,31 @@
+[submodule "Acme Deutsch"]
+	path = Acme Deutsch
+	url = https://github.com/1501henify/CSS_Intro
+
+[submodule "Light"]
+	path = Light
+	url =  https://github.com/1501henify/Snow-animation
+
+[submodule "Loruki Deutsch"]
+	path = Loruki Deutsch
+	url = https://github.com/1501henify/Loruki-in-Deutsch
+
+[submodule "Loruki Website"]
+	path = Loruki Website
+	url =  https://github.com/1501henify/Learning-With-Traversy-Media
+
+[submodule "observer-api-demo"]
+	path = observer-api-demo
+	url = https://github.com/1501henify/henify-Observer-API
+
+[submodule "Phlox_Business Clone"]
+	path = Phlox_Business Clone
+	url =  https://github.com/1501henify/frontend-project-idea
+
+[submodule "Xmas-Counter"]
+	path = Xmas-Counter
+	url =  https://github.com/1501henify/Xmas-Counter
+
+[submodule "Xmas-input"]
+	path = Xmas-input
+	url =  https://github.com/1501henify/Xmas-quiz
