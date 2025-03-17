@@ -1,9 +1,8 @@
 ### Screenshot Preview
 
 --Acme_Deutsch
-## [![Small Screen View](https://github.com/1501henify/CSS_Intro/blob/46ec42b74c44e0c14b8c61f2efe7198adb8d3088/IMAGE/acme_Deutsch.jpg)](https://github.com/1501henify/CSS_Intro)
 
---Acme_Website
+--acme_website
 ## [![Small Screen View]()](https://github.com/1501henify/Frontend_Project-Ideas-)
 
 --Card_Maker
