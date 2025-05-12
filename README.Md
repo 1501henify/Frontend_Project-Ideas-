@@ -16,9 +16,13 @@
 
 ## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Gallery/Gallery.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
 
---Henify_
+--Henify\_
 
-## [![Small Screen View()]](https://github.com/1501henify/Henify-)
+## [![Small Screen View(https://github.com/1501henify/Henify_/blob/main/img/Heinfy.png)]](https://github.com/1501henify/Henify_)
+
+## [![Small Screen View(https://github.com/1501henify/Henify_/blob/main/img/Henify(de).png)]](https://github.com/1501henify/Henify_)
+
+## [![Small Screen View(https://github.com/1501henify/Henify_/blob/main/img/Henify_%20de.png)]](https://github.com/1501henify/Henify_)
 
 --Light
 
