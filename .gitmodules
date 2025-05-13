@@ -19,6 +19,10 @@
 	path = Loruki Website
 	url =  https://github.com/1501henify/Learning-With-Traversy-Media
 
+[submodule "Loruki_DB"]
+	path = Loruki_DB
+	url =  https://github.com/1501henify/PHP_Project-Idea
+
 [submodule "observer-api-demo"]
 	path = observer-api-demo
 	url = https://github.com/1501henify/henify-Observer-API
