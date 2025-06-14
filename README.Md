@@ -12,17 +12,15 @@
 
 ## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Card%20maker/card_maker.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
 
+--Viggie Oke_Doc
+
+## [![Small Screen View](<https://raw.githubusercontent.com/1501henify/Viggie-Doc/refs/heads/main/img/viggieOke(desktop).png>)](https://github.com/1501henify/Viggie-Doc)
+
+## [![Small Screen View](https://raw.githubusercontent.com/1501henify/Viggie-Doc/refs/heads/main/img/viggieOke.png)](https://github.com/1501henify/Viggie-Doc)
+
 --Gallery
 
 ## [![Small Screen View](https://github.com/1501henify/Frontend_Project-Ideas-/blob/main/Gallery/Gallery.jpg)](https://github.com/1501henify/Frontend_Project-Ideas-)
-
---Henify\_
-
-## [![Small Screen View](https://github.com/1501henify/Henify_/blob/main/assets/img/Heinfy.png)](https://github.com/1501henify/Henify_)
-
-## [![Small Screen View](<https://github.com/1501henify/Henify_/blob/main/assets/img/Henify(de).png>)](https://github.com/1501henify/Henify_)
-
-## [![Small Screen View](https://github.com/1501henify/Henify_/blob/main/assets/img/Henify_%20de.png)](https://github.com/1501henify/Henify_)
 
 --Light
 

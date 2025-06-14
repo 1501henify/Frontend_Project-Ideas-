@@ -2,10 +2,9 @@
 	path = Acme Deutsch
 	url = https://github.com/1501henify/CSS_Intro
 
-
-[submodule "Henify_"]
-	path = Henify_
-	url =  https://github.com/1501henify/Henify_
+[submodule "Doc page"]
+	path = Doc page
+	url =  https://github.com/1501henify/Viggie-Doc
 
 [submodule "Light"]
 	path = Light
