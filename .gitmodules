@@ -6,6 +6,10 @@
 	path = Doc page
 	url =  https://github.com/1501henify/Viggie-Doc
 
+[submodule "Henify_"]
+	path = Henify_
+	url =  https://github.com/1501henify/Henify_
+
 [submodule "Light"]
 	path = Light
 	url =  https://github.com/1501henify/Snow-animation
